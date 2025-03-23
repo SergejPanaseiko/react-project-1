@@ -5,7 +5,7 @@ const Message = ({author="Incognito", text, isOnLine=false}) => {
     <div>
             <h3>{author}</h3>
             <p>{text}</p>
-            <p>{ isOnLine }</p>
+            <p>@{ isOnLine }</p>
     </div>
     )
 }
