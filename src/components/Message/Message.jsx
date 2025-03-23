@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Message = (props) => {
+const Message = ({author="Incognito", text, isOnLine=false}) => {
     return (
     <div>
-            <h3>{props.author}</h3>
-            <p>{ props.text }</p>
+            <h3>{author}</h3>
+            <p>{text}</p>
+            <p>{ isOnLine }</p>
     </div>
     )
 }

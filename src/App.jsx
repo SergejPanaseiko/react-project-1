@@ -11,7 +11,8 @@ const App = () => {
       <HelloSection />
       <Message
         author="Alex"
-        text="Sale prasku"
+        text="Sell an iron"
+        isOnLine={true}
       />
       <Footer />
 </>
