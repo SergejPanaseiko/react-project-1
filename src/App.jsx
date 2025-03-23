@@ -1,24 +1,7 @@
-const Header = () => {
-  return (
-    <header>
-      <p>Text Header!</p>
-   </header> 
-  )
-}
-const HelloSection = () => {
-  return (
-    <header>
-      <p>Text HelloSection!</p>
-   </header> 
-  )
-}
-const Footer = () => {
-  return (
-    <header>
-      <p>Text Footer!</p>
-   </header> 
-  )
-}
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header"
+import HelloSection from "./components/HelloSection/HelloSection"
+
 const App = () => {
   return (
     <>
