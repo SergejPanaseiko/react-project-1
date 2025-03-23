@@ -1,6 +1,7 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header"
 import HelloSection from "./components/HelloSection/HelloSection"
+import Message from "./components/Message/Message";
 
 const App = () => {
   return (
@@ -8,6 +9,10 @@ const App = () => {
       <div>Hello world!</div>
       <Header />
       <HelloSection />
+      <Message
+        author="Alex"
+        text="Sale prasku"
+      />
       <Footer />
 </>
   )
