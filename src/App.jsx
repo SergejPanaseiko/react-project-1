@@ -12,7 +12,7 @@ const App = () => {
       <Message
         author="Alex"
         text="Sell an iron"
-        isOnLine={true}
+        isOnLine={false}
       />
       <Footer />
 </>
